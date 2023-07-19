@@ -1,8 +1,8 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     font-family: Work Sans;
-}
+} */
 
 nav{
     width: 100%;
@@ -36,7 +36,7 @@ nav{
 nav, .icon, .info{
     display: flex;
     justify-content: space-around;
-    gap: 40px;
+    gap: 20px;
     align-items: center;
     text-decoration: none;
     font-size: 20px;
@@ -48,20 +48,20 @@ nav, .icon, .info{
     background: rgba(11, 2, 35, 0.10);
 
 }
-.play{
+.pray{
     color: #0B0223;
     text-align: center;
-    font-size: 60px;
-    font-weight: 600;
+    font-size: 40px;
+    font-weight: 400px;
     line-height: normal;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .goat{
     color: #8758F1;
     text-align: center;
 font-size: 95px;
 font-style: normal;
-font-weight: 800;
+/* font-weight: 800px; */
 line-height: normal;
 }
 .click{
@@ -69,16 +69,17 @@ line-height: normal;
     text-align: center;
     font-size: 20px;
     font-style: normal;
-    font-weight: 500px;
+    /* font-weight: 500px; */
     line-height: normal;
 }
 .main-contant{
     background-image: url('B8A2-Gamer-Zone/images/Group\ 14.png' );
-    width: 901px;
-    height: 350px;
+    width: 900px;
+    /* height: 400px; */
     text-align: center;
-    padding: 160px;    
-    margin: 0 auto;
+    padding: 160px;   
+    padding-bottom: 30px; 
+    /* margin: 0 auto; */
    
 }
 
@@ -138,7 +139,7 @@ line-height: normal;
 .online-items{
     /* padding-left: 240px;
     padding-right: 240px; */
-    padding: 100px 50px 60px 60px;
+    /* padding: 100px 50px 60px 60px; */
 }
 .online-header{
     color: #0B0223;
@@ -197,7 +198,7 @@ line-height: normal;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 30px; /* 150% */
+    /* line-height: 30px; 150% */
 }
 .our{
     color: #534C64;
@@ -206,10 +207,75 @@ line-height: normal;
     line-height: normal;
 
 }
+.fouth-main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* margin:50px; */
+    margin-top: 90px;
+
+}
+.fourth-header{
+    text-align: center;
+    padding-top: 200px;
+}
+.img55{
+    height: 90%;
+    margin-left: 90px;
+}
+.img66{
+    margin-top: 350px;
+    position: absolute;
+
+}
+
+
+
+
+/* fifthsection */
+
+.fifth-sec{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    width: 1650px;
+    height: 400px;
+    flex-shrink: 0;
+    padding-top: 50px;
+        
+   
+}
+
+.action{
+    color: #0B0223;
+   font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+    .hover-button {
+        /* background-color: #007bff; Set your desired button background color */
+        color: #fff; /* Set your desired button text color */
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 50px;
+        margin: 50px;
+        position: relative;
+        
+    }
+    
+    .hover-button:hover {
+        background-color: #0056b3;
+    }
 
 @media screen and (max-width:576px){
    .wnav{
     flex-direction: column;
+    padding-left: 90px;
    }
    .menus{
     flex-direction: column;
@@ -222,33 +288,67 @@ line-height: normal;
    }
    .main-header{
     flex-direction: column;
-
-    .main-img{
-        flex-direction: column-reverse;
-    }
    }
+    .main-img{
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    .goat{
+        font-size: 30px;
+    }
+    .we{
+        font-size: 27px;
+    }
+    .click{
+        text-align: right;
+        font-size: 15px;
+
+    }
+   
    .main-img img{
     height: auto;
-    width: 300px;
-    margin: 30px;
+    width: 600px;
+    /* margin: 30px; */
     
    }
+   .online-header{
+    font-size: 25px;
+   }
    .main-contant{
-    width: 50%;
-    width: auto;
-    padding-left: 13px;
+    width: 270px;
    }
    .second-main{
     flex-direction: column;
    }
    .png img{
     height: auto;
-    width: 400px;
+    width: 600px;
    }
    .videos{
+    padding: 100px;
     flex-direction: column;
     margin-right: 30px;
+    padding: 0px;
     /* height: auto;
     width: auto; */
    }  
+   .Smain{
+    padding-right: 200px;
+   }
+   .fouth-main{
+    font-size: 25px;
+    padding-top: 30px;
+    flex-direction: column;
+    margin-top: 1400px;
+   }
+   .img55 img{
+    height: 600px;
+    width: 500px;
+    margin-left: -30px;
+}
+.fifth-sec{
+    display: grid;
+    grid-template-columns: ;
+}
+      
 }
