@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Work Sans;
+}
+
+nav{
+    width: 100%;
+    height: 90%;
+    flex-shrink: 0;
+}
+.icon{
+    display: flex;
+}
+.G{
+    color: #FF42A5
+}
+.icon-name{
+    font-size: 40px;
+}
+.wnav{
+    display: flex;
+    justify-content: space-around;
+}
+.info{
+    display: flex;
+    list-style: none; 
+}
+.menus a{
+    text-decoration: none;
+}
+.menus li {
+  list-style: none;
+  text-decoration: none;
+} 
+nav, .icon, .info{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.flw{
+    border-radius: 8px;
+    padding: 18px 20px;
+    background: rgba(11, 2, 35, 0.10);
+
+}
+.play{
+    color: #0B0223;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.goat{
+    color: #8758F1;
+    text-align: center;
+font-size: 95px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.click{
+        color: #534C64;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500px;
+    line-height: normal;
+}
+.main-contant{
+    background-image: url('B8A2-Gamer-Zone/images/Group\ 14.png' );
+    width: 901px;
+    height: 350px;
+    text-align: center;
+    padding: 160px;    
+    margin: 0 auto;
+   
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between; 
+
+}
+.two-btn{
+    text-align: center;
+    padding-top: 20px;
+}
+.Sign-btn{ 
+    color: white;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 18px 30px;
+    border-radius: 48px;
+    border: none;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+.go-btn{
+    color: white;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 18px 30px;
+    border-radius: 48px;
+    border: none;
+    background: #4EC5F7;
+}
+.main-img{
+    background-color: #FFF;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+/* second main */
+.second-main{
+    height: 100%;
+    width: 100%;
+    background-color: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);;
+}
+.unleash{
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+
+}
+
+
+/* online items */
+
+
+.online-items{
+    /* padding-left: 240px;
+    padding-right: 240px; */
+    padding: 100px 50px 60px 60px;
+}
+.online-header{
+    color: #0B0223;
+    font-size: 48px;
+    text-align: center;
+}
+.funny{
+    color: #8758F1 ;
+}
+.peragraph{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    line-height: normal;
+}
+.videos{
+    /* padding-left: 100px; 
+    padding-right: 100px; */
+    display: flex;
+    /* justify-content: space-around; */
+        width: 342px;
+    height: 400px;
+    border-radius: 16px;
+    gap: 20px;
+    padding: 30px;
+}
+
+
+/* second main part */
+
+.shan{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
+}
+
+.second-main{
+    padding-top: 90px;
+    display: flex;
+    line-height: -30px;
+}
+.Smain{
+    text-align: right;
+    padding-right: 200px;
+    font-style: normal;
+    inline-size: auto;
+    padding-top: 150px ;
+}
+.we{
+    color: #8758F1;
+    font-size: 40px;
+}
+.play{
+    color: #534C64;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+}
+.our{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+@media screen and (max-width:576px){
+   .wnav{
+    flex-direction: column;
+   }
+   .menus{
+    flex-direction: column;
+   }
+   .icon{
+    flex-direction: column;
+   }
+   .info{
+    flex-direction: column;
+   }
+   .main-header{
+    flex-direction: column;
+
+    .main-img{
+        flex-direction: column-reverse;
+    }
+   }
+   .main-img img{
+    height: auto;
+    width: 300px;
+    margin: 30px;
+    
+   }
+   .main-contant{
+    width: 50%;
+    width: auto;
+    padding-left: 13px;
+   }
+   .second-main{
+    flex-direction: column;
+   }
+   .png img{
+    height: auto;
+    width: 400px;
+   }
+   .videos{
+    flex-direction: column;
+    margin-right: 30px;
+    /* height: auto;
+    width: auto; */
+   }  
+}
